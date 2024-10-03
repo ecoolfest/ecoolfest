@@ -927,6 +927,17 @@ strong {
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
+@media screen and (max-width: 1400px) {
+    
+    .artists-hover p{
+        font-size: 12px;
+    }
+    
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding: 10px 10px;
+    }
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 62px;
@@ -978,10 +989,6 @@ strong {
     padding-top: 150px;
   }
 
-  .pricing-thumb {
-    padding: 35px;
-  }
-
   .schedule-table h3 {
     font-size: 22px;
   }
@@ -994,14 +1001,11 @@ strong {
   .schedule-table td {
     padding: 25px;
   }
-
-  .ticket-section {
-    padding-top: 130px;
-  }
-
-  .ticket-form {
-    padding: 30px;
-  }
+    
+    
+    .artists-hover p{
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -1009,6 +1013,13 @@ strong {
     font-size: 14px;
     padding: 10px 20px;
   }
+}
+
+@media screen and (max-width: 503px) {
+    .artists-hover hr{
+        margin:0;
+    }
+    
 }
 
 @media screen and (max-width: 480px) {
@@ -1030,6 +1041,15 @@ strong {
 
   h5 {
     font-size: 20px;
-  }
+  } 
+    
+    .artists-hover p{
+        font-size: 12px;
+    }
 }
 
+@media screen and (max-width: 360px) {
+        .artists-hover p{
+        font-size: 10px;
+    }
+}
